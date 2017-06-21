@@ -1,0 +1,22 @@
+1. Write a short outline of your approach and any assumptions made on the build task.
+
+a) Bar Chart - I did a d3 nest() to filter the data on Campaign and Clicked. Then did a loop thru the resultant object and 
+    sort the data to show the Jan data first and then the Xmas data. The bar chart is rendered using barChart()
+
+b) Donut Chart - Here also I filtered the csv data using the d3 nest(). Used transition for animation. The Donut
+    chart is rendered using donutChart() function.
+
+Used bootstrap to display the grid and panel.
+
+2. Explain how you would host the webpage and which technologies and frameworks you would use.
+Give reasons for your choices.
+
+The D3 js library is directly added to the head of the index.html file. If this needs to be displayed while offline, then 
+we can download the d3.js and add it to assets/js file and reference it in the index.html. I used Vanila Javascript
+to display the charts. I think if we can display the charts in Vanilla JS, then it can be displayed using any JS
+framework.
+
+3. Briefly describe how you would structure and scale your webpage if more content was to be added.
+
+If more content were to be added, I would make my JS more modular and separate each chart as separate file and
+load via ajax when the page loads

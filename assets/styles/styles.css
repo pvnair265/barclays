@@ -1,0 +1,33 @@
+     .arc2 text {
+        font: 10px sans-serif;
+        text-anchor: middle;
+        }
+
+        .arc2 path {
+        stroke: #fff;
+        }
+
+
+    /*bar*/
+
+.bar {
+	fill: #64B5F6;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.x path {
+	display: none;
+}
+
+/*line*/
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}

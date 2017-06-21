@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>D3 Charts - Barclays</title>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+         <script type="text/javascript" src="assets/js/pie.js"></script>
+       <link rel="stylesheet" href="assets/styles/styles.css" />
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                       <div class="panel panel-default">
+                            <div class="panel-heading">Total number of clicks per campaign</div>
+                            <div class="panel-body" id="bar-chart">
+                                <svg width="500" height="310"></svg>
+                                 <script type="text/javascript">
+                                    barChart()
+                                 </script>
+                            </div>
+                        </div>
+                </div>
+                  <div class="col-md-6">
+                      <div class="panel panel-default">
+                            <div class="panel-heading">Clicks by Country</div>
+                            <div class="panel-body" id="donut-chart" >
+                                <script type="text/javascript">
+                                    donutChart();
+                                 </script>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+
+        </div>      
+
+    </body>
+   
+</html>
